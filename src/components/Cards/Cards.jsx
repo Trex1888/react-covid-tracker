@@ -9,7 +9,6 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
   if (!confirmed) {
     return "Loading...";
   }
-  //console.log(props);
 
   return (
     <div className={styles.container}>
